@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johntizy| <%= title %></title>
+</head>
+<body>
+    <form action="/blogs-creation" method="post">
+        <div>
+            <label for="blogTitle">Blog Title</label>
+            <br />
+            <input type="text" name="title" required>
+        </div>
+
+        <div>
+            <label for="blogSnippet">Blog Snippet</label>
+            <br />
+            <input type="text" name="snippet" required>
+        </div>
+
+        <div>
+            <label for="blogBody">Blog Body</label>
+            <br />
+            <input type="text" name="body" required>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
